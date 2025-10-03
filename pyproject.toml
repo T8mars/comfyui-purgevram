@@ -1,0 +1,16 @@
+[project]
+name = "purgevram"
+description = "A ComfyUI custom node that can be added after any node to clean up VRAM and memory. Extracted from the original LayerStyle repository."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/T8mars/comfyui-purgevram"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool]
+[tool.comfy]
+PublisherId = "t8star"
+DisplayName = "comfyui-purgevram"
+Icon = ""
+includes = []
